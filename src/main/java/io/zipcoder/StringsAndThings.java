@@ -67,6 +67,8 @@ public class StringsAndThings {
      *           gHappy("xxggyygxx") // Should return  false
      */
     public Boolean gIsHappy(String input){
+        for (int i = 0; i < input.length(); i++)
+            if (input.charAt(i) == )
 
         return null;
     }
@@ -80,6 +82,9 @@ public class StringsAndThings {
      *            countTriple("a") // Should return 0
      */
     public Integer countTriple(String input){
-        return null;
+        int counter = 0;
+        for (int i = 0; i < input.length(); i++) {
+            char output = input.charAt(i);
+        }
     }
 }
