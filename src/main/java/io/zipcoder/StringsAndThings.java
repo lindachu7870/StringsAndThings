@@ -34,8 +34,7 @@ public class StringsAndThings {
      *           removeString("Hello there", "x") // Should return "Hello there"
      */
     public String removeString(String base, String remove){
-        int s = 0;
-        return null;
+        return base.replaceAll(remove, "");
     }
 
     /**
@@ -68,6 +67,7 @@ public class StringsAndThings {
      *           gHappy("xxggyygxx") // Should return  false
      */
     public Boolean gIsHappy(String input){
+
         return null;
     }
 
