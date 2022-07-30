@@ -33,6 +33,7 @@ public class StringsAndThings {
      * removeString("Hello there", "e") //  Should return "Hllo thr"
      * removeString("Hello there", "x") // Should return "Hello there"
      */
+
     public String removeString(String base, String remove) {
         return base.replaceAll(remove, "");
     }
@@ -67,13 +68,13 @@ public class StringsAndThings {
      * gHappy("xxggyygxx") // Should return  false
      */
     public Boolean gIsHappy(String input) {
-        for ( int i = 0; i < input.length() - 1; i++ ) {
-            if ( input.charAt(i) == 'g' && input.charAt(i + 1) == 'g' ) {
-                return true;
+            for ( int i = 0; i < input.length() - 1; i++ ) {
+                if ( input.charAt(i) == 'g' && input.charAt(i + 1) == 'g' ) {
+                    return true;
+                }
             }
+            return false;
         }
-        return false;
-    }
 
     /**
      * We'll say that a "triple" in a string is a char appearing three times in a row.
